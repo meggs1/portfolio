@@ -11,9 +11,9 @@ function App() {
       <header className="App-header">
         Megan Schertz
         <BrowserRouter>
-          <Link to="about">About Me</Link>
-          <Link to="projects">My Projects</Link>
-          <Link to="contact">Contact Me</Link>
+          <Link to="about">About</Link>
+          <Link to="projects">Projects</Link>
+          <Link to="contact">Contact</Link>
 
           <Routes>
             <Route path="about" element={<About />} />
@@ -21,7 +21,8 @@ function App() {
             <Route path="contact" element={<Contact />} />
           </Routes>        
         </BrowserRouter>
-        <img src="/buff-arya.jpg" alt="cat" width="400" height="600"/>
+        <img src="/msse.png" alt="logo"/>
+        {/* <img src="/mscircle.png" alt="logo"/> */}
       </header>
     </div>
   );

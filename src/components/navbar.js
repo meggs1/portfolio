@@ -2,9 +2,10 @@ import {  Link } from "react-router-dom";
 
 export const NavBar = () => {
     return (
-    <nav class="navbar navbar-expand-sm navbar-light d-flex">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand navbar-light d-flex">
+        <div class="container-fluid d-flex">
             <div>
+                
             <a class="navbar-brand" href="/">
                 <img src="/initals.png" alt="initials" width="30" height="24" class="d-inline-block align-text-top" />
             </a>
@@ -13,6 +14,7 @@ export const NavBar = () => {
             <div class="collapse navbar-collapse" id="navbarNavLightDropdown">
                 <ul class="navbar-nav">
                 <li class="nav-item dropdown">
+                    
                     <a class="nav-link " href="/#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Menu &nbsp;
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">

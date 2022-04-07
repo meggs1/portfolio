@@ -19,10 +19,8 @@ function App() {
             <Route exact path="contact" element={<Contact />} />
           </Routes>  
         </div>
-        Megan Schertz   
-        <img src="/msse.png" alt="logo"/>
-        {/* <img src="/mscircle.png" alt="logo"/> */}
       </header>
+      
     </div>
   );
 }

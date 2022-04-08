@@ -12,9 +12,17 @@ body {
   margin-left: 10px;
 }
 
+.navbar-light {
+  background-color: #ebeff1;
+}
 .img-max {
   max-width: 500px;
   width:100%;
+}
+
+#about, #projects, #contact {
+  padding-top: 56px;
+  /* margin-top: -56px; */
 }
 
 /* 

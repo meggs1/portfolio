@@ -12,15 +12,14 @@ function App() {
       <header className="App-header">
         <div>
           <NavBar />
-          <Routes>
+          {/* <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="about" element={<About />} />
             <Route exact path="projects" element={<Projects />} />
             <Route exact path="contact" element={<Contact />} />
-          </Routes>  
+          </Routes>   */}
         </div>
       </header>
-      
     </div>
   );
 }

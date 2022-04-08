@@ -1,10 +1,10 @@
 import './App.css';
-import { About } from './components/about'
-import { Contact } from './components/contact'
-import { Projects } from './components/projects'
-import { Home } from './components/home'
+// import { About } from './components/about'
+// import { Contact } from './components/contact'
+// import { Projects } from './components/projects'
+// import { Home } from './components/home'
 import { NavBar } from './components/navbar'
-import { Routes, Route } from 'react-router-dom';
+// import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (

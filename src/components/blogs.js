@@ -1,8 +1,7 @@
-export const About = () => {
+export const Blogs = () => {
     return (
         <div>
             
         </div>
     )
 } 
-
